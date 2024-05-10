@@ -29,6 +29,7 @@ async function fetchData() {
     socket.on('goldValue', (goldValues) => {
         // console.log('Received gold value:', goldValue);
         const value = goldValues.bid;
+        // console.log(value);
         goldBuy = (value + bidSpread).toFixed(2);
         goldSell = (value + askSpread + parseFloat(0.5)).toFixed(2);
 
