@@ -9,11 +9,11 @@
   <title>
     Rajasthan Gold
   </title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"></script>
   <!-- Link Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!--     Fonts and icons     -->
   <script src="https://kit.fontawesome.com/0e1fa7c1a3.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -107,7 +107,7 @@
     /* #A57422 */
     /* rgb(54, 54, 54) */
     .card-table th {
-      background-color: rgb(54, 54, 54); 
+      background-color: rgb(54, 54, 54);
       color: white;
     }
 
@@ -370,7 +370,8 @@
 </head>
 
 <body>
-  <div class="col-lg-12" style="display: flex; flex-direction: row; justify-content: center; align-items: center; margin-bottom: -50px;">
+  <div class="col-lg-12"
+    style="display: flex; flex-direction: row; justify-content: center; align-items: center; margin-bottom: -50px;">
     <div class="col-lg-6">
       <img class="logo" src="./LOGO-01.png" alt="" style="width: 300px;margin-top: -100px;margin-left: 3%;">
     </div>
@@ -602,10 +603,10 @@
   <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js"></script>
+  <script type="module" defer src="./assets/js/core/aurifyview2.js"></script>
   <script type="module" src="./config/db.js"></script>
   <script type="module" src="./assets/js/core/spotrateDB.js"></script>
   <script type="module" defer src="./assets/js/core/displayNews.js"></script>
-  <script type="module" defer src="./assets/js/core/aurifyview2.js"></script>
 </body>
 
 </html>
